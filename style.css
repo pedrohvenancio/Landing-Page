@@ -8,6 +8,10 @@
     font-size: 24px;
     color: black;
 }
+body {
+    margin: 0%;
+    padding: 0%;
+}
 
 .bg1 {
     background-color: #e7dfd8;
