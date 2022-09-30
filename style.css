@@ -1,5 +1,5 @@
 * {
-    max-width: 100%;
+    max-width: 100vw;
     height: 100vh;
     margin: 0 auto;
 
@@ -22,7 +22,7 @@ section .home-div1 {
     display: flex;
     flex-direction:column;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 90px;
     max-width: 50vw;
     height: 100vh;
 }
