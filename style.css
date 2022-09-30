@@ -2,6 +2,8 @@
     max-width: 100vw;
     height: 100vh;
     margin: 0 auto;
+    
+    box-sizing: border-box;
 
     font-size: 24px;
     color: black;
@@ -233,4 +235,80 @@ section .end {
     background-position: center;
     image-rendering: optimizeQuality;
     padding-bottom: 20px;
+}
+
+section .info-div {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding:0%;
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    padding-left: 50px;
+}
+.img-info {
+    width:600px;
+    height: 600px;
+    background-image: url(img/pexels-photo-5999817.jpeg);
+    background-size: cover;
+    margin-left: 100px;
+    
+}
+.info-text-div {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: max-content;
+    align-items: auto;
+    text-align: left;
+    margin-right: 0%;
+
+}
+.text1-info {
+    height: 100px;
+    width: fit-content;
+    margin-top: 100px;
+    margin-left: 0%;
+}
+.title-info {
+    font-size: 100px;
+    width: 100%;
+    height: fit-content;
+
+}
+.text2-info {
+    height: 100px;
+    width: 100%;
+    margin-top: 160px;
+    padding-right: 250px;
+
+    display: flex;
+    flex-direction: column;
+}
+.text2-info2, .text2-info22 {
+    text-align: left;
+    width: 100%;   
+}
+.text2-info22{
+    font-weight: normal;
+    
+}
+
+.text3-info {
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    padding-right: 250px;
+
+    display: flex;
+    flex-direction: column;
+}
+.text3-info3, .text3-info33, .text3-info333 {
+    text-align: left;
+    width: 100%;
+    
+}
+.text3-info33, .text3-info333{
+    font-weight: normal;
 }
