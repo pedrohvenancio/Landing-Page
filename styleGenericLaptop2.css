@@ -1,5 +1,7 @@
+/*800px*/
+/*----------------------------------------*/
 * {
-    max-width: 100vw;
+    max-width: 100%;
     height: 100vh;
     margin: 0 auto;
     
@@ -21,7 +23,6 @@ section .homee-div{
     display: flex;
     flex-direction: row;
     align-items: center
-
 }
 
 section .home-div1 {
@@ -65,9 +66,9 @@ button .button-text{
 }
 
 section #text2 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: left;
-    padding-top: 250px;
+    padding-top: 100px;
     padding-left: 70px;
     padding-right: 50px;
 }
@@ -98,7 +99,7 @@ section #about-div {
 .aboutus {
     font-size: 70px;
     text-align: center;
-    padding-top:240px;
+    padding-top:170px;
 }
 .aboutus-text {
     font-size: 40px;
@@ -129,11 +130,15 @@ section .wwd-div{
     text-align: center;
 
 }
-.wwd-div .wwd-div2{
+.wwd-div {
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     height:70vh;
-    width: fit-content;
+    width: max-content;
+}
+.wwd-div2 {
+    display: flex;
+    flex-direction: row;
 }
 
 .wwd1, .wwd2, .wwd3 {
@@ -203,16 +208,16 @@ section .wwd-div{
     width: 90%;
 }
 .wwd-text1, .wwd-text2, .wwd-text3 {
-    font-size:  40px;
+    font-size:  30px;
     width: 100%;
     text-align: left;
     padding-left: 20px;
     padding-bottom: 10px;
 }
 .wwd-text11, .wwd-text22, .wwd-text33 {
-    height: fit-content;
+    height: max-content;
     padding-bottom: 5px;
-    padding-left: 90px;
+    padding-left: 60px;
     width: 100%;
     margin-bottom: 5px;
     text-align: justify;
@@ -233,7 +238,7 @@ section .end {
 }
 .img-end {
     width: 80%;
-    height: 400px;
+    height: 390px;
     background-image: url(img/pexels-photo-259239.jpeg);
     background-size: cover;
     background-position: center;
@@ -255,9 +260,7 @@ section .info-div {
     width:600px;
     height: 600px;
     background-image: url(img/pexels-photo-5999817.jpeg);
-    background-size: cover;
-    margin-left: 100px;
-    
+    background-size: cover;    
 }
 .info-text-div {
     display: flex;
@@ -266,7 +269,7 @@ section .info-div {
     width: max-content;
     align-items: auto;
     text-align: left;
-    margin-right: 0%;
+    margin-left: 20px;
 
 }
 .text1-info {
